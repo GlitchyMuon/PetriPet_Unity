@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 1402307590}
   - component: {fileID: 1402307594}
   - component: {fileID: 1402307595}
+  - component: {fileID: 1402307596}
   m_Layer: 0
   m_Name: MainCellPlayer
   m_TagString: Untagged
@@ -573,6 +574,23 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!111 &1402307596
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402307589}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 5c63862d2e24534498d3851fce3107d3, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5c63862d2e24534498d3851fce3107d3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &1461826222
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +719,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074761939}
+  - component: {fileID: 2074761941}
+  - component: {fileID: 2074761940}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -724,6 +744,32 @@ Transform:
   - {fileID: 1461826223}
   m_Father: {fileID: 256229011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074761940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074761938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd3adfa613562e46b838ef4767e70d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+--- !u!114 &2074761941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074761938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b59a4aea0ed0b94fb78397b7933760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAwarenessController
+  _playerAwarenessDistance: 0
+  _playerPosition: {fileID: 1402307593}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
