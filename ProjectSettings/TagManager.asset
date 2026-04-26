@@ -41,20 +41,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 4083426189
+  - name: Background Mask
+    uniqueID: 2436991669
     locked: 0
-  - name: Collectibles
-    uniqueID: 995898033
+  - name: Background
+    uniqueID: 2776545835
     locked: 0
   - name: Player
-    uniqueID: 853730365
+    uniqueID: 4200822399
     locked: 0
   - name: Enemies
-    uniqueID: 193502641
+    uniqueID: 3938038695
     locked: 0
   - name: Antibiotics
-    uniqueID: 2365631749
+    uniqueID: 422134191
+    locked: 0
+  - name: Canvas UI
+    uniqueID: 1942592275
     locked: 0
   m_RenderingLayers:
   - Default
