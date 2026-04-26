@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: fd15a29a33b6bbe4f8f656ee6b96ae71
+guid: 288f134d72a2ce6448ec8ae5d9cf96b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5559657023325521396
-    second: Lab_1_0
+      213: 7182897895254671906
+    second: Buton_0
+  - first:
+      213: 5865092101032477759
+    second: Buton_1
+  - first:
+      213: 484862727733170052
+    second: Buton_2
+  - first:
+      213: -6011460239017879618
+    second: Buton_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 105
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lab_1_0
+      name: Buton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 1080
+        x: 67
+        y: 299
+        width: 374
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f5c25c3b9ed72d40800000000000000
-      internalID: 5559657023325521396
+      spriteID: 2224e804497cea360800000000000000
+      internalID: 7182897895254671906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buton_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 319
+        width: 366
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f348df8f03ef46150800000000000000
+      internalID: 5865092101032477759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buton_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 63
+        width: 366
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fcc5bf4149ab600800000000000000
+      internalID: 484862727733170052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buton_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 63
+        width: 366
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb754ff33c0039ca0800000000000000
+      internalID: -6011460239017879618
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lab_1_0: 5559657023325521396
+      Buton_0: 7182897895254671906
+      Buton_1: 5865092101032477759
+      Buton_2: 484862727733170052
+      Buton_3: -6011460239017879618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
