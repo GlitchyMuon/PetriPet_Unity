@@ -50,6 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 4200822399
     locked: 0
+  - name: PlayerBulletsShield
+    uniqueID: 2057456887
+    locked: 0
   - name: Enemies
     uniqueID: 3938038695
     locked: 0
